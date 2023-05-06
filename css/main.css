@@ -1,10 +1,13 @@
+body {
+    background-color: rgb(122, 122, 5);
+}
 .main_title {
     background-color: #379128;
     color: #aaa111;
     font-style:oblique;
     font-size: 37px;
     font-family: 'Comic Sans MS', Courier, monospace;
-    text-decoration: dashed underline 90px;
+    
 
 }
 .project_title {
@@ -13,4 +16,8 @@
     font-size: 37px;
     font-family: 'Arial', 'Comic Sans MS', monospace;
 
+}
+.amogus_picture {
+    width: 200px;
+    
 }

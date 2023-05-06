@@ -7,3 +7,10 @@
     text-decoration: dashed underline 90px;
 
 }
+.project_title {
+    background-color: lavender;
+    color: #001001;
+    font-size: 37px;
+    font-family: 'Arial', 'Comic Sans MS', monospace;
+
+}

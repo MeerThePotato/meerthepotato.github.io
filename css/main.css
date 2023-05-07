@@ -41,11 +41,14 @@ body {
     }
     50% {
         filter: hue-rotate(180deg);
-        transform: scale(0.4)
+        transform: scale(0.4) rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg) scale(0.7);
     }
     100% {
         filter: hue-rotate(360deg);
 
-        transform: rotate(180deg);
+        transform: rotate(360deg);
     }
 }

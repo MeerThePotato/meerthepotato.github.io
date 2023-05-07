@@ -29,6 +29,11 @@ body {
     font-size: 50px;
 }
 
+.game_desc {
+    font-size: 11px
+
+}
+
 @keyframes spinny {
     0% {
         filter: hue-rotate(0deg);

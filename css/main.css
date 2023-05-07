@@ -19,5 +19,28 @@ body {
 }
 .amogus_picture {
     width: 200px;
-    
+    animation: spinny 1s infinite linear;
+}   
+.annoying_error {
+    color: red;
+    animation: spinny 0.8s infinite linear;
+    position: fixed;
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+}
+
+@keyframes spinny {
+    0% {
+        filter: hue-rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(180deg);
+        transform: scale(0.4)
+    }
+    100% {
+        filter: hue-rotate(360deg);
+
+        transform: rotate(360deg);
+    }
 }

@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Archivo";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Archivo_bold";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Archivo_black";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Archivo_semibold";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 500;
+}
+
 body {
     background-color: rgb(122, 122, 5);
 }
@@ -6,8 +27,7 @@ body {
     color: #aaa111;
     font-style:oblique;
     font-size: 37px;
-    font-family: 'Comic Sans MS', Courier, monospace;
-    
+    font-family: 'Archivo_semibold';
 
 }
 .project_title {
@@ -51,4 +71,17 @@ body {
 
         transform: rotate(360deg);
     }
+}
+.subsection {
+    background-color: aquamarine;
+    margin: 3vh 2vw;
+    padding: 3vh 3vw;
+    outline: black solid 2px;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 100px;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: black 2px 2px 5px;
 }

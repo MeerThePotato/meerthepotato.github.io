@@ -46,6 +46,6 @@ body {
     100% {
         filter: hue-rotate(360deg);
 
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
 }

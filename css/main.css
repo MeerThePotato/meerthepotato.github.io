@@ -22,12 +22,15 @@
 body {
     background-color: rgb(255, 230, 230)
 }
+p {
+   font-family: "Archivo" 
+}
 .main_title {
-    background-color: #379128;
-    color: #aaa111;
-    font-style:oblique;
+    color: #373737;
+    text-decoration: underline;
     font-size: 37px;
-    font-family: 'Archivo_semibold';
+    font-family: 'Archivo_black';
+    animation: spinny2 2s linear;
 
 }
 .project_title {
@@ -41,6 +44,8 @@ body {
     width: 200px;
     animation: spinny 1s infinite linear;
 }   
+
+
 .annoying_error {
     color: red;
     animation: spinny 0.8s infinite linear;
@@ -69,6 +74,15 @@ body {
     100% {
         filter: hue-rotate(360deg);
 
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinny2{
+    0% {
+        transform: rotate(180deg);
+    }
+
+    100% {
         transform: rotate(360deg);
     }
 }

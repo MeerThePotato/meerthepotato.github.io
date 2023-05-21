@@ -1,0 +1,8 @@
+.tips {
+    background-color: antiquewhite;
+    margin: 5vh 5vw;
+    padding: 3vh 3vw;
+    outline: black double;
+    border-radius: 37px;
+    box-shadow: 10px 10px 100px;
+}

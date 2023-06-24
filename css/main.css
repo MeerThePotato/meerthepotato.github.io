@@ -4,6 +4,27 @@
     font-weight: 300;
 }
 @font-face {
+    font-family: "Archivo_sus";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 50;
+} 
+
+@font-face {
+    font-family: "Archivo_superlight";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Archivo_thin";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Archivo_light";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 200;
+}
+@font-face {
     font-family: "Archivo_bold";
     src: url("../assets/fonts/Archivo/Variable.ttf");
     font-weight: 600;
@@ -17,6 +38,22 @@
     font-family: "Archivo_semibold";
     src: url("../assets/fonts/Archivo/Variable.ttf");
     font-weight: 500;
+
+}
+@font-face {
+    font-family: "Archivo_superbold";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Archivo_lightblack";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Archivo_boldblack";
+    src: url("../assets/fonts/Archivo/Variable.ttf");
+    font-weight: 1000;
 }
 
 body {
@@ -85,6 +122,18 @@ p {
     100% {
         transform: rotate(360deg);
     }
+
+}
+@keyframes spinny3{
+    0% {
+        filter:hue-rotate(0deg);
+    }
+    50% {
+        filter:hue-rotate(180deg);
+    }
+    100% {
+        filter:hue-rotate(360deg);
+    }
 }
 .subsection {
     background-color: aquamarine;
@@ -98,4 +147,44 @@ p {
 h2 {
     color: #ffffff;
     text-shadow: black 2px 2px 5px;
+}
+
+.big {
+    font-size: 108px;
+    animation: spinny3 10s infinite linear;
+    color:cyan;
+    font-family:"Archivo_semibold";
+    
+}
+.smol{
+    font-size: 54px;
+    font-family:"Archivo"
+}
+
+.smol_poop{
+    font-size: 54px;
+    color:black
+}
+
+.test_button{
+    color: grey;
+    background-color: antiquewhite;
+    font-family: "Archivo_light";
+}
+.test_button:hover {
+    background-color: rgb(205, 193, 178);
+    box-shadow: 0 0 2px black;
+    transform: scale(1.1);
+
+}
+.test_button_edu{
+    color: grey;
+    background-color: antiquewhite;
+    font-family: "Archivo_light";
+}
+.test_button_edu:hover {
+    background-color: rgb(205, 193, 178);
+    box-shadow: 0 0 2px black;
+    transform: scale(1.1);
+
 }

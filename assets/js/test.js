@@ -15,7 +15,8 @@ function testButtonClickedEdu() {
     ELEM_MAIN_TITLE.innerHTML = "Welcome to my "  + VALEDU + "!"
    // window.open( "https://www." + VALEDU + ".edu" )
 }
-function gotoDepths()
-    location.replace(https:/www.meerthepotato.github.io/thedepths)
+function gotoDepths() {
+    location.replace("https:/meerthepotato.github.io/thedepths/")
+}
 
 // .value  is how you get the content of a input element

@@ -149,22 +149,7 @@ h2 {
     text-shadow: black 2px 2px 5px;
 }
 
-.big {
-    font-size: 108px;
-    animation: spinny3 10s infinite linear;
-    color:cyan;
-    font-family:"Archivo_semibold";
-    
-}
-.smol{
-    font-size: 54px;
-    font-family:"Archivo"
-}
 
-.smol_poop{
-    font-size: 54px;
-    color:black
-}
 
 .test_button{
     color: grey;
@@ -187,4 +172,10 @@ h2 {
     box-shadow: 0 0 2px black;
     transform: scale(1.1);
 
+}
+.header{
+    background-color:  rgb(50,250,230);
+    font-family: "Archivo";
+    width: 100%;
+    margin: 100%;
 }

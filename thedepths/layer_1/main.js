@@ -1,9 +1,17 @@
 const ELEM_PIG_LATIN =  document.getElementsByClassName("input_box")[0];
 const ELEM_PIG_OUTPUT = document.getElementsByClassName("output_box")[0];
 let vowels = "aeiou";
+let allvalidchar= 'asdfghjklmnbvcxzqwertyuiopQWERTYUIOPLKJHGFDSAZXCVBNM'
 
 function translatePigLatin() {
     const userPigLatinInput = ELEM_PIG_LATIN.value;
+    for(let icc of userPigLatinInput) {
+        if(allvalidchar.includes(icc)){
+            continue;
+        }else{
+            userPigLatinInput.replaceAll (icc , "")
+        }
+    }
     let words = userPigLatinInput.split(" ");
    
     for(let word_idx = 0; word_idx < words.length; word_idx++) {

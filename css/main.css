@@ -55,18 +55,27 @@
     src: url("../assets/fonts/Archivo/Variable.ttf");
     font-weight: 1000;
 }
+@font-face {
+    font-family: "Nunito";
+    src: url("../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Nunito_title";
+    src: url("../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf");
+    font-weight: 600;
+}
 
 body {
     background-color: rgb(255, 230, 230)
 }
 p {
-   font-family: "Archivo" 
+   font-family: "Nunito" 
 }
 .main_title {
     color: #373737;
     text-decoration: underline;
     font-size: 37px;
-    font-family: 'Archivo_black';
+    font-family: 'Nunito_title';
     animation: spinny2 2s linear;
 
 }

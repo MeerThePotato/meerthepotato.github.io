@@ -164,11 +164,6 @@ h2 {
 
 
 
-.test_button{
-    color: grey;
-    background-color: antiquewhite;
-    font-family: "Archivo_light";
-}
 .test_button:hover {
     background-color: rgb(205, 193, 178);
     box-shadow: 0 0 2px black;
@@ -193,3 +188,6 @@ h2 {
     padding: 20px 3vw;
 }
 
+.errorlist{
+    font-family:'Nunito'
+}

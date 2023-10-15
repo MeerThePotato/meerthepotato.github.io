@@ -98,6 +98,7 @@ p {
 
 .annoying_error {
     color: red;
+    font-size: 20px;
     animation: spinny 0.8s infinite linear;
     position: fixed;
     font-family: "Comic Sans MS";
